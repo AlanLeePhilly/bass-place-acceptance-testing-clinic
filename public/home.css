@@ -1,0 +1,62 @@
+body {
+  /* Use a "Matrix"-style color scheme. */
+  background-color: #D74470;
+  color: white;
+  text-align: center;
+
+
+  font-family: monospace;
+  font-size: 1.5em;
+}
+
+h3 {
+  font-family: 'Finger Paint', cursive;
+  font-size: 200%;
+  margin: 15px;
+}
+
+ul, form {
+  /* Wrap the list in a green box. */
+  background-color: #751834;
+  text-align: left;
+  margin: auto;
+  width: 75%;
+  border: 1px solid black;
+  margin-bottom: 10px;
+}
+
+li {
+  /* Add a bit more spacing between list items. */
+  padding: 5px;
+}
+
+#new-button {
+  margin-top: 10px;
+  color: white;
+  border: 3px solid #751834;
+  border-radius: 3px;
+  background-color: black;
+  padding: 5px;
+}
+
+#home-button {
+  color: white;
+  font-size: 75%;
+  font-weight: 100;
+}
+
+.home-button-div {
+  margin-left: 14%;
+  /*width: 75%;*/
+  text-align: left;
+}
+
+.field {
+  display: block;
+  margin-top: 5px;
+  padding: 10px;
+}
+
+#submit-button {
+  margin: 10px;
+}

@@ -1,0 +1,23 @@
+<h3>Enter Bass Player</h3>
+
+<div class='home-button-div'>
+  <a id='home-button' href="/">Home</a>
+</div>
+
+<form action='/players/new' method='post'>
+  <div class='field'>
+    <label for='name'>Name: </label>
+    <input id='name' name='name' type='text' />
+  </div>
+
+  <div class='field'>
+    <label for='band'>Band: </label>
+    <input id='band' name='band' type='text' />
+  </div>
+
+  <input type='submit' value='Submit' id='submit-button' />
+</form>
+
+<% if @error %>
+<p> <%= @error %> </p>
+<% end %>

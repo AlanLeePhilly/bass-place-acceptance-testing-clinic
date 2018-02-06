@@ -1,0 +1,11 @@
+<h3>Low End Query</h3>
+
+<ul>
+  <% @players.each do |player| %>
+    <li> <%= player["name"]%>
+      <br/>&nbsp;&nbsp;(<%= player["band"] %>)</li>
+  <% end %>
+</ul>
+
+
+<a id='new-button' href='/players/new'>Add a Bass Player!</a>
